@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/shipsSlideShowFragment">
+
+    <fragment
+        android:id="@+id/shipsSlideShowFragment"
+        android:name="com.example.spacexships.fragment.ShipsSlideShowFragment"
+        android:label="fragment_ships_slide_show"
+        tools:layout="@layout/fragment_ships_slide_show" >
+        <action
+            android:id="@+id/action_shipsSlideShowFragment_to_launchesListFragment"
+            app:destination="@id/launchesListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/launchesListFragment"
+        android:name="com.example.spacexships.fragment.LaunchesListFragment"
+        android:label="fragment_launches_list"
+        tools:layout="@layout/fragment_launches_list" >
+        <argument
+            android:name="launchesID"
+            app:argType="string[]" />
+    </fragment>
+</navigation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dimitri Tskitishvili/AndroidStudioProjects/SpaceXShips2/app/src/main/res/drawable/controll_menu.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Dimitri Tskitishvili/AndroidStudioProjects/SpaceXShips2/app/src/main/res/drawable/slide_show_toogle_button.xml" value="0.3828125" />
+        <entry key="..\:/Users/Dimitri Tskitishvili/AndroidStudioProjects/SpaceXShips2/app/src/main/res/drawable/speed_selector_button.xml" value="0.3828125" />
+        <entry key="..\:/Users/Dimitri Tskitishvili/AndroidStudioProjects/SpaceXShips2/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dimitri Tskitishvili/AndroidStudioProjects/SpaceXShips2/app/src/main/res/layout/fragment_ships_missions.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dimitri Tskitishvili/AndroidStudioProjects/SpaceXShips2/app/src/main/res/layout/fragment_ships_slide_show.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dimitri Tskitishvili/AndroidStudioProjects/SpaceXShips2/app/src/main/res/layout/items_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dimitri Tskitishvili/AndroidStudioProjects/SpaceXShips2/app/src/main/res/layout/slide_show_item_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dimitri Tskitishvili/AndroidStudioProjects/SpaceXShips2/app/src/main/res/layout/slide_show_items_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dimitri Tskitishvili/AndroidStudioProjects/SpaceXShips2/app/src/main/res/layout/slideshow_items_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dimitri/StudioProjects/SpaceXShips/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dimitri/StudioProjects/SpaceXShips/app/src/main/res/layout/fragment_launches_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dimitri/StudioProjects/SpaceXShips/app/src/main/res/layout/fragment_maps.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/Dimitri/StudioProjects/SpaceXShips/app/src/main/res/layout/fragment_ships_missions.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/Dimitri/StudioProjects/SpaceXShips/app/src/main/res/layout/fragment_ships_slide_show.xml" value="0.34057971014492755" />
+        <entry key="..\:/Users/Dimitri/StudioProjects/SpaceXShips/app/src/main/res/layout/launch_cardview.xml" value="0.33" />
+        <entry key="..\:/Users/Dimitri/StudioProjects/SpaceXShips/app/src/main/res/layout/links_popupwindow.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dimitri/StudioProjects/SpaceXShips/app/src/main/res/layout/mission_cardview.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dimitri/StudioProjects/SpaceXShips/app/src/main/res/layout/slide_show_item_layout.xml" value="0.20520833333333333" />
+        <entry key="app/src/main/res/layout/fragment_launches_list.xml" value="0.14479166666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

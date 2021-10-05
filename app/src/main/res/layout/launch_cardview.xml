@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#515151"
+    app:cardCornerRadius="10dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/launchName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Launch Name"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/launch_year"/>
+
+            <TextView
+                android:id="@+id/launchYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="lYear"
+                android:gravity="end"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="100dp">
+            <TextView
+                android:id="@+id/launchDescription"
+                android:textSize="16sp"
+                tools:text="Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/linksButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/links" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
